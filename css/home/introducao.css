@@ -1,0 +1,49 @@
+.introducao-bg {
+  background: var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-0);
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px; /* 1º valor ⭡ ⭣. 2º valor ⭠ ⭢*/
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introducao img {
+  object-fit: cover; /*Preenche todo o espaço do container e fica proporcional (sem distorcer)*/
+  height: 100%; /*imagem cresce 100% do tamanho dela na altura*/
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+.introducao h1 {
+  color: var(--cor-0);
+  margin-bottom: 32px;
+}
+.introducao p {
+  margin-bottom: 20px;
+  color: var(--cor-5);
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: var(--cor-10);
+    padding-top: 40px;
+    box-shadow: inset 0 -60px var(---cor-0);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+}
