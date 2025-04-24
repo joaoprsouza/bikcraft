@@ -6,15 +6,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px; /* 1º valor ⭡ ⭣. 2º valor ⭠ ⭢*/
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .introducao img {
+  width: 100%;
+  height: 100%; /*imagem cresce 100% do tamanho dela na altura do container*/
+  object-position: right;
   object-fit: cover; /*Preenche todo o espaço do container e fica proporcional (sem distorcer)*/
-  height: 100%; /*imagem cresce 100% do tamanho dela na altura*/
 }
 .introducao-conteudo {
   align-self: end;
