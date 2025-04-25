@@ -12,7 +12,7 @@
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
 }
-/*define como display flex para que a imagem consigan fazer um margin: auto para cima e para baixo;*/
+/*define como display flex para que a imagem consiga fazer um margin: auto para cima e para baixo;*/
 .parceiros li {
   display: flex;
   padding: 32px;
