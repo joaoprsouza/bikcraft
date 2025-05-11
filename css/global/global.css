@@ -23,6 +23,7 @@ a {
 }
 img {
   max-width: 100%;
+  height: auto; /*Significa que vai crescer de acordo com o tamanho da imagem*/
   display: block;
 }
 img[src$=".jpg"] {

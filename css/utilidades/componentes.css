@@ -16,6 +16,8 @@
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content; /*o botão vai ter só o máximo do tamnho dele*/
+  border: none;
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
@@ -71,6 +73,9 @@
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 40px;
 }
 .titulo p {
   margin-bottom: 4px;
